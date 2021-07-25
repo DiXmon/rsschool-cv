@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Dmitriy Lobachevskiy </title>
+</head>
+<body>
+<header class="header">
+  <h3>HTML, CSS & Git Basics</h3>
+</header>
+<main class="main">
+        <div class="title bd">
+        <p class="assidebackground position bd"><img class="foto" src="foto.jpg" alt="CV Foto"> </p>
+        <div class="bd">
+            <ul class="list"> 
+                <li>
+                    <h2 class="name">dmitriy</h2>
+                    <p class="sname">Lobachevskiy</p>
+                </li>
+            </ul>
+        </div>
+        <div class="bottom bd"></div>    
+        <div class="contacts bd">
+            <ul class="unmark bd">
+                <li >E-mail</li> 
+                <li><a href="mailto:dxbybr@protonmail.com">dxbybr@protonmail.com</a></li>
+            </ul>
+            <ul class="unmark bd">
+                <li >Tel.</li> 
+                <li>+375(29)7905590</li>
+            </ul>
+            <ul class="unmark bd">
+                <li >Social Network</li> 
+                <li><a href="http://facebook.com/dixmon">Facebook</a></li>
+            </ul>
+        
+        </div>
+    </div>
+<div class="content">
+  <p class="assidebackground skillname">About</p>
+  <p class="skill">I have been working in the construction of security systems and communication networks for about 15 years. At this point, I decided to discover a new direction for myself. This is the direction of front-end programming. And now I devote all my free time to this. </p>
+  <p class="assidebackground skillname">Education</p>
+  <ul class="skill">
+    <li><h3>2000 - 2005</h3>
+    <li><b>Civil engineer</b></li>
+    <li>Brest State Technical University</li>
+    <li>Speciality: Industrial and civil construction</li>    
+   </ul>
+  <p class="assidebackground skillname">Work experience</p>
+  <ul class="skill">
+    <li><h3>2008 - Present</h3><li>
+      <li><b>Deputy Director</b></li>
+      <li>Design and construction of security systems and communication networks</li>
+    </ul>
+  <p class="assidebackground skillname">Career Summary</p>
+  <ul class="skill mark">
+    <li class="unmark"><h3>2000 - 2005</h3></li>
+    <li>Engineer with over 12 years Security industry experience</li>
+    <li>Keep up-to-date with changes in the industry</li>
+    <li>Successful in project management</li>
+    <li>Good at establishing rapport with people from diverse backgrounds</li>
+ </ul>
+ <p class="assidebackground skillname">Skills</p>
+  <ul class="skill mark">
+    <li class="unmark padding"></li> 
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JS</li>
+    <li>JAVA</li>
+  </ul>
+ <p class="assidebackground skillname">Code</p>
+ <p class="skill">
+     <code>
+        let pixels = document.querySelectorAll('.pixel');   
+        let eraser = document.querySelector('.eraser');   
+        let chosencolor = document.querySelector('.chosen-color');   
+        for(let pixel of pixels) {
+           pixel.onclick = function() {
+             if(eraser.checked) {
+               pixel.style.backgroundColor='white';
+             } else {
+               pixel.style.backgroundColor=chosencolor.value;
+             }
+            }
+        }
+     </code>
+ </p>
+ <p class="assidebackground skillname">English level</p>
+ <p class="skill"><mark>Elementary</mark></p>
+</div>
+</main>
+<footer class="footer">
+    <a href="https://github.com/dixmon">Github</a>
+    <a>Created 2021</a>
+    <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" height="30" alt="Logo RS School"></a>
+</footer>
+</body>
+</html> 

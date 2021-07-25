@@ -1,0 +1,125 @@
+.bdd {
+border: 1px solid;
+border-color: slateblue;
+padding: 5px;
+border
+}
+.contacts {
+    display: flex;
+    padding: 0px 50px 40px 0px;
+    list-style-type: none;
+    color: rgb(128, 127, 127);
+    justify-content: space-around;
+    font-family: helvetica;
+}
+.bottom {
+    background-color: rgb(250, 250, 250);
+}
+ul {
+    margin: 0px;
+}
+.header {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(245, 245, 245);
+}
+.position {
+    text-align: center;
+}
+.list {
+    padding-top: 12%;
+    list-style-type: none;
+    text-align: center;
+    font-family: helvetica;
+ }
+.font {
+    font-family: helvetica;
+}
+.assidebackground {
+    margin: 0;
+    background-color: rgb(250, 250, 250);
+ }
+.main {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border-right: 1px solid;
+    border-color: rgb(250, 250, 250);
+}
+.title {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    }
+.content {
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+.name {
+    text-align: start;
+    font-size: 30px;
+    line-height: 0px;
+    font-weight: 200;
+    color: chocolate;
+    font-family: Helvetica;
+    color: rgb(128, 127, 127);
+}
+.sname {
+    text-align: start;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 0px;
+    color: chocolate;
+    font-family: helvetica;
+    color: rgb(224, 171, 24);
+    }
+.foto {
+    padding: 10px;
+    width: 200px;
+    border-radius: 50%;
+    }
+.skillname {
+    padding-top: 40px;
+    padding-left: 100px;   
+    font-family: Helvetica;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgb(128, 127, 127);
+}
+.skill {
+    padding-top: 18px;
+    padding-left: 30px;
+    padding-bottom: 70px;
+    list-style-type: none;
+    color: rgb(128, 127, 127);
+}
+.mark {
+    list-style-type: disc;
+    padding-left: 30px;
+}
+.unmark {
+    list-style-type: none;
+}
+code {
+    white-space: pre;
+}
+.footer {
+    width: 1000px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    line-height: 2px;
+    justify-content: space-around;
+    font-family: helvetica;
+    list-style-type: none;
+    color: rgb(128, 127, 127);
+    padding-bottom: 20px;
+}
+mark {
+background-color: rgb(144, 187, 174);
+}
+.padding {
+    padding-top: 25px;
+}
