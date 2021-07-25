@@ -4,6 +4,9 @@
 * **E-Mail:** dixmon2013@gmail.com
 * **Social:** [FaceBook](http://facebook.com/dixmon "fb")
 
+## About
+I have been working in the construction of security systems and communication networks for about 15 years. At this point, I decided to discover a new direction for myself. This is the direction of front-end programming. And now I devote all my free time to this.
+
 ## Education
 2000 - 2005  
 **Civil engineer**  
